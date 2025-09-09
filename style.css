@@ -1,0 +1,57 @@
+body{
+ background-image: url(background.jpg);
+ background-repeat:no-repeat;
+ background-size: cover;
+    position: relative;
+    color: white;
+}
+
+*{
+    margin: 0px;
+    padding:0px ;
+}
+ul{
+    background-color: rgba(3, 3, 3, 0.938);
+   color: white;
+   padding: 20px;
+   font-family: sans-serif;
+   font-size: 25px;
+
+
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+    position: relative;
+    left: 500px;
+
+}
+img{
+    position: absolute;
+   top: -1px;
+    left: 20px;
+}
+p{
+ text-align: center;
+ margin:100px 300px;
+ font-size: 20px;
+}
+button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 30px;
+    position: absolute;
+    left: 300px;
+    bottom: -55px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+  background: black;
+  color: white;
+}
+li:hover{
+    color: deeppink;
+    cursor: pointer;
+}
